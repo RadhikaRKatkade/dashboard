@@ -1,0 +1,15 @@
+
+:root{
+    --offcanvas-width:270px;
+}
+.sidebar-menu{
+    width: var(--offcanvas-width);
+}
+
+@media(min-width: 992px) {
+    .sidebar-menu{
+        transform: none;
+        visibility: visible !important;
+    }
+    
+}
